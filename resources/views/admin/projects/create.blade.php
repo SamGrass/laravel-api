@@ -34,7 +34,7 @@
             </select>
         </div>
         <div class="mb-3">
-            <label for="img" class="form-label">Seleziona una o più tecnologie</label>
+            <label for="technologies" class="form-label">Seleziona una o più tecnologie</label>
             <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 @foreach ($technologies as $technology)
                 <input type="checkbox" name="technologies[]" class="btn-check" id="technology-{{ $technology->id }}"
